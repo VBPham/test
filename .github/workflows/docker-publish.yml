@@ -38,4 +38,5 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
+          platform: windows/amd64
           tags: development-latest
