@@ -1,0 +1,6 @@
+<!DOCTYPE configuration [
+	<!ENTITY HelloWorld SYSTEM "ConfigurationHelloWorld.xml">
+]>
+<configuration>
+	&HelloWorld;
+</configuration>
