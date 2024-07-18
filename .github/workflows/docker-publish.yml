@@ -24,14 +24,8 @@ env:
 
 jobs:
   build:
-
+    name: build
     runs-on: windows-2022
-    permissions:
-      contents: read
-      packages: write
-      # This is used to complete the identity challenge
-      # with sigstore/fulcio when running outside of PRs.
-      id-token: write
 
     steps:
       - name: Checkout repository
