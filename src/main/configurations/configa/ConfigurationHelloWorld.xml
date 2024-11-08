@@ -1,0 +1,17 @@
+<Module
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="FrankConfig.xsd"
+	>
+	<Adapter
+		 name="HelloWorld">
+		<Receiver name="JavaListener">
+			<JavaListener name="HelloWorld"/>
+		</Receiver>
+		<Pipeline>
+			<pipe
+				name="whatevr"
+				className="org.frankframework.pipes.VinhPipe"
+			></pipe>
+		</Pipeline>
+	</Adapter>
+</Module>

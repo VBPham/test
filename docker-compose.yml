@@ -1,0 +1,12 @@
+services:
+    frank2test:
+        volumes:
+            - "./configurations:/opt/frank/resources"
+        build: .
+        ports:
+            - "8080:8080"
+        environment:
+            larva.adapter.active: false
+            configurations.directory.autoLoad: true
+            instance.name: Frank2B
+            configurations.names: Frank2B,configa`
